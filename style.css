@@ -1,0 +1,102 @@
+/*#logo{background-color: brown;}*/
+/*#navigation{background-color: blue;}*/
+header{background-color: rgb(114, 163, 163);}
+/*section{background-color: beige;}*/
+article{background-color: rgb(114, 163, 163);}
+aside{background-color: rgb(114, 163, 163);}
+footer{background-color: rgb(114, 163, 163);}
+.jour{background-color: aliceblue;}
+
+#bloc-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(232, 237, 241);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 800px;
+    border-radius: 40px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border: 2px black solid;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+#logo{
+    width: 100px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navigation{
+    width: 400px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin-bottom: 50px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    border-radius: 40px;
+    border: 2px black solid;
+    align-items: center;
+}
+
+#semaine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 400px;
+}
+#semaine p{
+    font-size: 0.5em;
+}
+.jour{    
+    width: 100px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+Aside{
+    width: 200px;
+    height: 600px;
+    border-radius: 40px;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 800px;
+    border-radius: 40px;
+    margin-bottom: 50px;
+    border: 2px black solid;
+}
